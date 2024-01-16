@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Ejercicio_2_Menu_lateral" parent="Base.Theme.Ejercicio_2_Menu_lateral">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">#FFDAB9</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+</resources>
